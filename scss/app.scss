@@ -5,34 +5,77 @@
 .first-col {
     background: red;
     min-height: 400px;
-  
+  img {
+      width: 300px;
+      height: 300px;
+  }
 }
 
 .second-col {
     background: pink;
     min-height: 400px;
+    img {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 
 .weathervane {
     position: absolute;
-    top: 65%;
+    top: 42%;
     left: 50%;
- transform: translate(-70%, -50%);
- -webkit-transform: translate(-30%, -50%);
+//    width: 300px;
+ transform: translate(-50%, -50%);
+ -webkit-transform: translate(-50%, -50%);
     z-index: 100;
-    img {max-width: 60%;
+    img {
+        width: 100%;
+    
     }
 }
 
-img { height:300px;
-      width: 300px;
+.cloud {
+    margin-left: 10%;
+    margin-top: 2%;
 }
 
-.cloud { margin-left: 170px;
-
+.day {
+    margin-left: 10%;
+    margin-top: 15%;
 }
 
-.day { margin-left: 170px;
-      magin-bottom: 200px;
+.temperature { 
+    margin-top: 2%;
+    margin-left: 25%;
 }
+
+.umbrella {
+    margin-left:25%;
+    margin-top:15%;
+}
+
+
+
+@media #{$small-up} {
+    .weathervane{
+        width: 80%;
+    }
+}
+@media #{$small-only} { }
+
+@media #{$medium-up} {
+    .weathervane{
+        width: 30%;
+    }
+}
+@media #{$medium-only} { }
+
+@media #{$large-up} { }
+@media #{$large-only} { }
+
+@media #{$xlarge-up} { }
+@media #{$xlarge-only} { }
+
+@media #{$xxlarge-up} { }
+@media #{$xxlarge-only} { }
