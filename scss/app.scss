@@ -3,7 +3,7 @@
 
 
 .first-col {
-    background: red;
+    background:rgb(36,132,219) ;
     min-height: 400px;
   img {
       width: 300px;
@@ -12,7 +12,7 @@
 }
 
 .second-col {
-    background: pink;
+    background:rgb(149, 103, 235);
     min-height: 400px;
     img {
         width: 300px;
@@ -23,7 +23,7 @@
 
 .weathervane {
     position: absolute;
-    top: 42%;
+    top: 55%;
     left: 50%;
 //    width: 300px;
  transform: translate(-50%, -50%);
@@ -53,6 +53,7 @@
 .umbrella {
     margin-left:25%;
     margin-top:15%;
+    
 }
 
 
