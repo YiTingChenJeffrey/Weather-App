@@ -2,67 +2,93 @@
 @import "foundation";
 
 
-.first-col {
-    background:rgb(36,132,219) ;
-    min-height: 400px;
-  img {
-      width: 300px;
-      height: 300px;
-  }
-}
 
-.second-col {
-    background:rgb(149, 103, 235);
-    min-height: 400px;
-    img {
-        width: 300px;
-        height: 300px;
-    }
-}
-
-.search {
-    background-color: orange;
-    padding: 15px;
-}
-
-.blank {
-    padding: 3px;
-}
-
-.weathervane {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-//    width: 300px;
- transform: translate(-50%, -50%);
- -webkit-transform: translate(-50%, -50%);
-    z-index: 100;
-    img {
-        width: 100%;
+.first-col img{
+    margin-left:60%;
+    width: 30%;
+    min-width: 50px;
     
-    }
+   
 }
 
-.cloud {
-    margin-left: 10%;
-    margin-top: 2%;
+.second-col img{
+    margin-right:60%;
+    width: 30%;
+    min-width: 50px;
 }
 
-.day {
-    margin-left: 10%;
-    margin-top: 15%;
+
+
+    
+.intext {
+    left: 10%;
+    width:20%;
+    min-width: 50px;
+    margin-left: 30%;
+    text-align: center;   
 }
 
-.temperature { 
-    margin-top: 2%;
-    margin-left: 25%;
+
+
+
+.hihi {
+    color: black;
+    border-radius: 25px;
+    background:#5CAEF5;
+    padding: 10px; 
+    width: 200px;
+    height: 50px; 
+
+}
+    
+.name {
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    height: 36px;
+    background: pink;
 }
 
-.umbrella {
-    margin-left:25%;
-    margin-top:15%;
+.name1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    height: 36px;
+    background: pink;
+}
+
+.yoll {
+    //left: 35%;
+    
+} 
+
+.yoll img {
+    width:20%;
+    min-width: 70px;
+    float:right;
+}
+
+.yolll img {
+    padding-top: 10px;
+    width:50%;
+    min-width: 180px;
+}
+
+.ccc {
+    text-align: center;
+    background:pink;
     
 }
+
+.yollll {
+    height: 37%;
+}
+
+.yollll img {
+    width: 100%;
+}
+    
+    
 
 
 
