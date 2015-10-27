@@ -29,7 +29,9 @@
 }
 
 
-
+.yollll {
+    text-align: center;
+}
 
 .hihi {
     color: black;
@@ -63,16 +65,11 @@
 } 
 
 .yoll img {
-    width:20%;
+    width:40%;
     min-width: 70px;
-    float:right;
+    
 }
 
-.yolll img {
-    padding-top: 10px;
-    width:50%;
-    min-width: 180px;
-}
 
 .ccc {
     text-align: center;
@@ -80,34 +77,102 @@
     
 }
 
-.yollll {
-    height: 37%;
+
+
+
+.bbox {
+    text-align: center;
+    line-height:inherit;
+    border-radius: 25px;
+    background: #FFA4FF;
+    height:10%;
+    border:5px solid purple;
 }
 
-.yollll img {
-    width: 100%;
+.bbox p {
+    margin-top: 35px;
 }
+
     
-    
+
+et-child,
+.columns + .column:last-child, .column +
+.columns:last-child,
+.columns +
+.columns:last-child {
+  float: left;
+}
+
+.bbbox {
+    margin-top: 5px;
+    border:5px solid purple;
+    line-height:normal;
+    border-radius: 25px;
+    background: #FFA4FF;
+    text-align: center;
+    height:10%;
+}
+
+.bbbox p {
+    margin-top: 25px;
+}
+
+.bbbbox {
+    border:5px solid purple;
+    line-height:normal;
+    border-radius: 25px;
+    background: #FFA4FF;
+    text-align: center;
+    height:10%;
+}
+
+.bbbbox p {
+    margin-top: 35px;
+}
+
+.morning {
+    background-color: bisque;
+    font-size: 20;
+}
+
+.afternoon {
+    background-color: bisque;
+    font-size: 20;
+}
+
+.night {
+    background-color: bisque;
+    font-size: 20;
+}
 
 
 
 @media #{$small-up} {
-    .weathervane{
-        width: 80%;
-    }
+   
+    
 }
-@media #{$small-only} { }
+@media #{$small-only} {
+        
+}
 
 @media #{$medium-up} {
-    .weathervane{
-        width: 30%;
-    }
+    
 }
 @media #{$medium-only} { }
 
-@media #{$large-up} { }
-@media #{$large-only} { }
+@media #{$large-up} { 
+   
+    
+     .yolll {
+        left:30%;
+        }
+}
+@media #{$large-only} {
+    .yolll {
+        left:30%;
+        }
+   
+}
 
 @media #{$xlarge-up} { }
 @media #{$xlarge-only} { }
