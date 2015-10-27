@@ -203,15 +203,8 @@ function gotweather2(weather) {
     };
 }
 
-$("#loaderrrr").click(function() {
-            $.ajax({
-              url: "index3.html",
-              cache: false
-            })
-              .done(function( html ) {
-                $( "#aajaa" ).html(html);
-              });
-        });
+
+
 
     
     
